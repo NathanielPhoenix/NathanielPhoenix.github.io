@@ -684,9 +684,9 @@ sup{
   position: relative;
   text-align: right;
   -webkit-transition:all 0.2s ease-in-out;
-  -moz-transition:all 0.2s ease-in-out;
-  -ms-transition:all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; 
+   -moz-transition:all 0.2s ease-in-out;
+   -ms-transition:all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out; 
 }
 
 
@@ -765,7 +765,6 @@ iframe {
   padding-bottom: 56.25%; 
   height: 0;
 }
-
 .iframe-container iframe{
   position: absolute;
   top:0;
@@ -785,12 +784,14 @@ iframe {
     display: flex;
 }
 
+
+
 .btn-inicio:hover {
   color:#ad49cd!important;
   -webkit-transition:all 0.2s ease-in;
-  -moz-transition:all 0.2s ease-in;
-  -ms-transition:all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+   -moz-transition:all 0.2s ease-in;
+   -ms-transition:all 0.2s ease-in;
+   transition: all 0.2s ease-in;
 }
 
 .fa.fa-play-circle {
@@ -864,6 +865,14 @@ a.video-btn:hover  {
    color:#03a1fc!important;
 }
 
+/*.video {
+  background-image: url('../img/video.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}*/
 .cont2 {
     margin-bottom:0rem;
 }
